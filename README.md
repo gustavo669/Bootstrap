@@ -1,12 +1,12 @@
 # Perfil Personal — Gustavo Adolfo Godoy Barrera
 
-> Currículum digital construido con **Bootstrap 5** y CSS personalizado como proyecto de la asignatura de Desarrollo Web.
+> Currículum digital construido con **Bootstrap 5** y CSS personalizado como tarea de Desarrollo Web.
 
 ---
 
 ## Objetivo del proyecto
 
-Desarrollar una página web de presentación personal de **Gustavo Adolfo Godoy Barrera**, estudiante de Ingeniería en Sistemas, que funcione como currículum digital. El sitio es completamente responsive, aplica HTML5 semántico, usa componentes nativos de Bootstrap 5 y mantiene una identidad visual propia mediante un archivo `style.css` personalizado.
+Desarrollar una página web de presentación personal que funcione como currículum digital. El sitio es completamente responsive, aplica HTML5 semántico, usa componentes nativos de Bootstrap 5 y mantiene una identidad visual propia mediante un archivo `style.css` personalizado.
 
 ---
 
@@ -114,7 +114,7 @@ Bootstrap/
 
 ## Autor
 
-**Gustavo Adolfo Godoy Barrera** — Estudiante de Ingeniería en Sistemas Computacionales
+**Gustavo Adolfo Godoy Barrera** — Estudiante de Ingeniería en Sistemas 
 
 ---
 
