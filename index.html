@@ -231,19 +231,6 @@
           </a>
         </div>
 
-        <div class="col-lg-4 text-lg-end">
-          <div class="footer-social d-flex flex-wrap gap-2 justify-content-lg-end">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" id="enlace-github"
-              aria-label="GitHub" class="footer-link">GitHub</a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" id="enlace-linkedin"
-              aria-label="LinkedIn" class="footer-link">LinkedIn</a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" id="enlace-twitter"
-              aria-label="Twitter" class="footer-link">Twitter</a>
-            <a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer" id="enlace-stackoverflow"
-              aria-label="Stack Overflow" class="footer-link">Stack Overflow</a>
-          </div>
-        </div>
-
       </div>
       <hr class="footer-divider" />
       <p class="footer-copy text-center mb-0">
@@ -261,11 +248,9 @@
     crossorigin="anonymous"></script>
 
   <script>
-    /* Navbar scrolled shadow */
     const nav = document.getElementById('navbar-principal');
     window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 20));
 
-    /* Active nav link */
     const links = document.querySelectorAll('.nav-link-custom');
     new IntersectionObserver(entries => {
       entries.forEach(e => {
@@ -278,13 +263,13 @@
       ...document.querySelectorAll('section[id]')
     );
 
-    /* Fade-in on scroll */
+
     const fo = new IntersectionObserver(entries => {
       entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); fo.unobserve(e.target); } });
     }, { threshold: 0.1 });
     document.querySelectorAll('.fade-in-up').forEach(el => fo.observe(el));
 
-    /* Scroll-to-top */
+
     const sb = document.getElementById('btn-scroll-top');
     window.addEventListener('scroll', () => sb.classList.toggle('show', window.scrollY > 300));
     sb.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
