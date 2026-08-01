@@ -100,13 +100,6 @@ Bootstrap/
 ├── style.css           # Personalización y estilos propios
 ├── img/
 │   ├── profile.jpg     # Foto de perfil
-│   ├── project1.jpg    # Imagen proyecto 1
-│   ├── project2.jpg    # Imagen proyecto 2
-│   └── project3.jpg    # Imagen proyecto 3
-├── screenshots/
-│   ├── 320px.png
-│   ├── 768px.png
-│   └── 1280px.png
 └── README.md
 ```
 
