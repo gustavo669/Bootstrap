@@ -86,9 +86,9 @@ Se definieron variables CSS en `:root` para toda la paleta, tipografía, sombras
 
 ## Capturas de pantalla
 
-| 320 px | 768 px | 1280 px |
-|:---:|:---:|:---:|
-| ![Vista 320px](screenshots/320px.png) | ![Vista 768px](screenshots/768px.png) | ![Vista 1280px](screenshots/1280px.png) |
+<img width="1362" height="641" alt="image" src="https://github.com/user-attachments/assets/15c8338b-0df5-4ded-8737-f405a866d0b0" />
+
+<img width="1365" height="638" alt="image" src="https://github.com/user-attachments/assets/20e2de7a-be64-486e-af51-ea7f991ada09" />
 
 ---
 
